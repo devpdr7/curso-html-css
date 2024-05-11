@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'Android';
+    src: url('/desf10/fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+header > h1 {
+    text-align: center;
+    font-family: 'Bebas Neue';
+    text-shadow: 2px 2px 0px black;
+}
+
+header > p {
+    text-align: center;
+    text-shadow: 2px 2px 0px black;
+}
+
+section > h1 {
+    font-family: 'Android';
+    text-align: center;
+    color: rgb(6, 88, 54);
+}
+
+section > h2 {
+    font-family: 'Android';
+    color: rgb(6, 88, 54);
+}
+
+body {
+    background-color: rgb(54, 173, 134);
+    margin: 0;
+}
+
+header {
+    background-color: green;
+    background-image: linear-gradient(to bottom, rgb(14, 199, 137), rgb(0, 77, 38));
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+nav > a {
+    text-decoration: solid;
+    color: white;
+    padding: 10px;
+    font-weight: bolder;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover {
+    background-color: #5CBE7D;
+    border-radius: 10%;
+    text-decoration: none;
+}
+main {
+    background-color: white;
+    margin: 0 150px;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+a {
+    text-decoration: solid;
+    color: green;
+    font-weight: bolder;
+    padding: 2px;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: green;
+    color: white;
+}
+
+strong {
+    text-decoration: solid;
+    color: green;
+    font-weight: bolder;
+}
+
+footer > strong {
+    color: white;
+}
+
+footer {
+    background-color: rgb(6, 88, 54);
+    color: white;
+    text-align: center;
+    margin: 20px 0px 0px 0px; 
+    padding: 10px;
+    font-style: italic;
+}
+
+h2 {
+    background-color: rgba(14, 255, 34, 0.014);
+    background-image: linear-gradient(to right, rgba(14, 255, 34, 0.274), rgb(255, 255, 255));
+    padding: 0 0 0 5px;
+}
+
+section#video {
+    background-color: rgb(6, 88, 54);
+    padding: 20px;
+    margin: 0px -20px;
+    text-align: center;
+    position: relative;
+}
+
+picture#bug {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+section#mais {
+    background-color: rgba(111, 194, 166, 0.466);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.267);
+    margin: 20px 0px;
+    border-radius: 10px;
+}
+
+section#mais > h3 {
+    background-color: rgb(7, 211, 143);
+    padding: 7px;
+    margin: 0;
+    border-radius: 10px;
+}
+
+section#mais > p {
+    padding: 7px;
+    text-align: justify;
+    text-indent: 2em;   
+    line-height: 1em;
+}
+
+section#assunto > p {
+    text-align: justify;
+    text-indent: 2em;
+    line-height: 1em;
+}
+ul {
+    list-style-type: '\2714\00a0\00a0';
+    list-style-position: inside;
+    columns: 2;
+}
