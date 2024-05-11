@@ -1,2 +1,2 @@
 # curso-html-css
- Curso de HTMl & CSS
+ Curso de HTML & CSS
