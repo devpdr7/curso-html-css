@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>exemplo de formulário</h1>
+    <form action="">
+        <p>
+            <label for="iano">Em qual ano você nasceu? </label>
+            <input type="number" name="ano" id="iano" min="1900" max="2024" oninput="iidade.innerHTML = Number(2024) - Number(iano.value)">
+        </p>
+        <p>
+            <label for="iidade">Sua idade é: </label>
+            <output id="iidade">0</output>
+        </p>
+
+    
+
+    </form>
+</body>
+</html>
